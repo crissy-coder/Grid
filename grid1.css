@@ -1,0 +1,311 @@
+#container{
+    display: grid;
+    height: 100vh;
+    grid-template-columns:repeat(3,1fr);
+    margin-left: 8%;
+
+  
+}
+
+#sidehead{
+justify-content: center;
+align-self: center;
+
+ 
+}
+#banner{
+       height: 650px;
+     
+}
+#btn{
+    padding: 8px;
+    background-color: black;
+    color: whitesmoke;
+}
+#empty{
+    background-color:yellow;
+    height: 650px;
+}
+/* #navsection{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+} */
+
+
+#logofood{
+width: 80px;
+}
+#nav{
+    display: flex;
+}
+#nav ul{
+    list-style: none;
+    display: flex;
+    margin-left: 30%;
+   
+}
+#nav ul li{
+   margin-left: 25%;
+   font-size: 18px;
+}
+#logg{
+    width: 150%;
+    padding-left:4px;
+    font-size: 16px;
+}
+
+#swiggywala{
+    background-color: #302c2c;
+}
+#swiggy{
+    display: grid;
+    grid-template-columns: repeat(3,1fr)
+}
+#order{
+    width: 200px;
+   margin-left: 30%;
+  
+}
+#swiggy h2 {
+    text-align: center;
+    color: antiquewhite;
+}
+#swiggy p{
+    text-align: center;
+    color: aquamarine;
+}
+
+
+#bonder{
+   border: 3px solid black;
+    border-radius: 35px;
+     margin: 2%;
+}
+#diningswiggy{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+ 
+   
+}
+#orderr{
+    width: 280px;
+   margin-left: 19%;
+}
+
+#bonder h2 {
+    text-align: center;
+    
+    padding-left: 0%;
+}
+#bonder p{
+    text-align: center;
+   
+}
+
+/* #piller{
+
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    border: 2px solid black;
+    
+}
+#piller p {
+    border: 2px solid black;
+   padding: 10px;
+    text-align: center;
+    background-color: orange;
+}
+#lunch{
+  background-color: orangered;
+    
+}
+
+#brk{
+    
+   grid-column: 7;
+}
+
+ */
+
+h1 {
+    text-align: center;
+  }
+
+  .time-table {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    border: 3px solid black;
+    padding: 10px;
+    background-color: #5da3fa;
+  }
+
+  div {
+    padding: 20px 5px;
+  
+    text-align: center;
+    
+  }
+
+  .row-1 {
+    font-weight: bold;
+    font-size: large;
+    padding: 40px 0px;
+    background-color: #ff6666;
+  }
+
+  .text-bold {
+    font-weight: bold;
+    background-color: #8d3daf;
+  }
+
+  .col-span-2-end {
+    grid-column-start: 7;
+    grid-column-end: 9;
+    background-color: #cad5e2;
+  }
+
+  .col-span-2-start {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    background-color: #cad5e2;
+  }
+
+  .lunch {
+    border: 0px;
+    background-color: #edc126;
+    font-weight: bold;
+    font-size: larger;
+  }
+
+  .text-green {
+    background-color: #1faa59;
+    font-weight: bold;
+    font-size: larger;
+  }
+
+
+
+
+
+#kon{
+    background-color: black;
+    border-radius: 15px;
+}
+
+#feel{
+    color: white;
+}
+
+
+#colorvarations{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    
+
+}
+.colo1{
+    background-color: #1faa59;
+    height: 300px;
+    width: 200px;
+    margin-bottom: 8%;
+    justify-self: center;
+    border-radius: 16px;
+    color: white;
+    
+    
+}
+
+.colo2{
+    background-color: #8d3daf;
+    height: 300px;
+    width: 200px;
+    justify-self: center;
+    border-radius: 16px;
+    color: white;
+}
+
+.colo3{
+    background-color: #45c915;
+    height: 300px;
+    width: 200px;
+    justify-self: center;
+    border-radius: 16px;
+    color: white;
+
+
+}
+
+.colo4{
+    background-color: #c911e1;
+    height: 300px;
+    width: 200px;
+    justify-self: center;
+    border-radius: 16px;
+    color: white;
+}
+
+
+.colo5{
+    background-color: #edc126;
+    height: 300px;
+    width: 200px;
+    justify-self: center;
+    border-radius: 16px;
+    color: white;
+}
+
+.colo6{
+    background-color: #ff6666;
+    height: 300px;
+    width: 200px; 
+    justify-self: center;
+    border-radius: 16px;
+    color: white;
+}
+
+.colo7{
+    background-color: #9acd32;
+    height: 300px;
+    width: 200px;
+    justify-self: center;
+    border-radius: 16px;
+    color: white;
+
+}
+
+.colo8{
+    background-color: #f94d09;
+    height: 300px;
+    width: 200px;
+    justify-self: center;
+    border-radius: 16px;
+    color: white;
+}
+
+#footer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background-color: #302c2c;
+}
+
+div ul{
+    list-style: none;
+}
+#men{
+    color: white;
+    text-align: start;
+}
+#fot li{
+    color: white;
+    padding-bottom:10%;
+    text-align: start;
+}
+#rights{
+  text-align: center;
+    color: whitesmoke;
+    font-size: 16px;
+    background-color: #302c2c;
+    grid-column-start:1;
+    grid-column-end: 8;
+}
